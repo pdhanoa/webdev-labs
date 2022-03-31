@@ -19,6 +19,44 @@ Feel free to borrow from Exercise 1.
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
+    section {
+        display:block
+    }
+}
 
+section {
+    width: 300px;
+    height: 480px;
+    margin: 10px;
+    border: solid gray 2px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    display:inline-block;
+    background-color: #AAEE99;
     
+}
+
+section img {
+    width: 100%;
+
+}
+
+section h2, p {
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+button {
+    margin-left: 10px;
+}
+
+main {
+    display: inline;
 }
